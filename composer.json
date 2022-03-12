@@ -1,0 +1,19 @@
+{
+    "name": "cristhiasevilla/prueba2",
+    "description": "Prueba 2",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Model\\": "./models",
+            "MVC\\": "./",
+            "Controllers\\": "./controllers"
+        }
+    },
+    "authors": [{
+        "name": "Cristhian Sevilla",
+        "email": "crissev17@gmail.com"
+    }],
+    "require": {
+        "vlucas/phpdotenv": "^5.4"
+    }
+}
